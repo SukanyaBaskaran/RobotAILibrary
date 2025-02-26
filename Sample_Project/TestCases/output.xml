@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on win32)" generated="2025-02-05T20:35:42.052124" rpa="false" schemaversion="5">
+<suite id="s1" name="AI Library" source="C:\Users\Admin\Robotframework File\Sample_Project\TestCases\AI_Library.robot">
+<test id="s1-t1" name="Exec Test" line="6">
+<kw name="RobotFrameworkAI.add library components">
+<msg time="2025-02-05T20:35:42.104420" level="FAIL">No keyword with name 'RobotFrameworkAI.add library components' found.</msg>
+<status status="FAIL" start="2025-02-05T20:35:42.103907" elapsed="0.000513">No keyword with name 'RobotFrameworkAI.add library components' found.</status>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>${output}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-02-05T20:35:42.104420" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-02-05T20:35:42.102598" elapsed="0.001822">No keyword with name 'RobotFrameworkAI.add library components' found.</status>
+</test>
+<status status="FAIL" start="2025-02-05T20:35:42.068862" elapsed="0.035558"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="AI Library">AI Library</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-02-05T20:35:42.060376" level="ERROR">Taking listener 'keywords' into use failed: Importing listener 'keywords' failed: ModuleNotFoundError: No module named 'keywords'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Admin\Robotframework File\Sample_Project\TestCases
+  C:\Users\Admin\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\Admin\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\Admin\AppData\Local\Programs\Python\Python312
+  C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages</msg>
+<msg time="2025-02-05T20:35:42.102041" level="ERROR">Error in file 'C:\Users\Admin\Robotframework File\Sample_Project\TestCases\AI_Library.robot' on line 2: Importing library 'RobotFrameworkAI' failed: ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\RobotFrameworkAI\__init__.py", line 8, in &lt;module&gt;
+    from .modules.real_test_data_generator.RealTestDataGenerator import RealTestDataGenerator
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\RobotFrameworkAI\modules\real_test_data_generator\RealTestDataGenerator.py", line 7, in &lt;module&gt;
+    from RobotFrameworkAI.modules.Module import Module
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\RobotFrameworkAI\modules\Module.py", line 4, in &lt;module&gt;
+    from RobotFrameworkAI.ai_interface.AI_Interface import AI_Interface
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\RobotFrameworkAI\ai_interface\AI_Interface.py", line 7, in &lt;module&gt;
+    from RobotFrameworkAI.ai_interface.ai_model_services.OpenAIService import OpenAIService
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\RobotFrameworkAI\ai_interface\ai_model_services\OpenAIService.py", line 2, in &lt;module&gt;
+    from openai import OpenAI
+PYTHONPATH:
+  C:\Users\Admin\Robotframework File\Sample_Project\TestCases
+  C:\Users\Admin\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\Admin\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\Admin\AppData\Local\Programs\Python\Python312
+  C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages</msg>
+</errors>
+</robot>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Puter.js</title>
+    <script src="https://js.puter.com/v2/"></script> <!-- Include Puter.js -->
+</head>
+<body>
+    <h1>Welcome to Puter.js Example</h1>
+    <p>This is an example of how to use Puter.js in your project.</p>
+    <pre id="result"></pre> <!-- Added pre tag to display result -->
+
+    <script>
+        // Example of using Puter.js
+        const puter = new Puter();
+
+        const prompt = "Generate a Robot Framework script for a login test on https://www.facebook.com/login/";
+        puter.ai.chat(prompt)
+            .then(response => {
+                document.getElementById('result').innerText = response; // Display result in pre tag
+            })
+            .catch(error => {
+                document.getElementById('result').innerText = 'Error: ' + error.message;
+            });
+    </script>
+</body>
+</html>

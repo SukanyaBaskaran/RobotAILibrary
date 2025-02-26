@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on win32)" generated="2024-09-28T16:26:52.626834" rpa="false" schemaversion="5">
+<suite id="s1" name="Sample" source="C:\Users\Admin\Robotframework File\TestCases\Sample.robot">
+<test id="s1-t1" name="TC01_Sample TC01" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-28T16:26:53.014085" level="INFO">Opening browser 'Chrome' to base url 'https://demoqa.com/automation-practice-form'.</msg>
+<arg>https://demoqa.com/automation-practice-form</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-28T16:26:53.014085" elapsed="11.461574"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-09-28T16:27:04.475659" elapsed="0.086611"/>
+</kw>
+<kw name="Set Browser Implicit Wait" owner="SeleniumLibrary">
+<arg>5</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2024-09-28T16:27:04.563881" elapsed="0.000000"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-09-28T16:27:05.101357" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-09-28T16:27:04.563881" elapsed="0.537476"/>
+</kw>
+<doc>This is for the first TC01</doc>
+<tag>Sample</tag>
+<status status="PASS" start="2024-09-28T16:26:53.014085" elapsed="12.087827"/>
+</test>
+<status status="PASS" start="2024-09-28T16:26:52.668928" elapsed="12.434541"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Sample</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Sample">Sample</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

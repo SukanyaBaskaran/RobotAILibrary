@@ -1,0 +1,747 @@
+element,TAG,ID,TYPE,CLASS,NAME,ARIA_AUTOCOMPLETE,TITLE,HREF,TEXT,VALUE,ARIA_LABEL
+html,html,,,js-focus-visible,,,,,Log inLog in with GoogleLog in with GithubLog in with SSOORShowLoginForgot Password?No account?Sign upBy clicking Login or signing in through a third party you accept the LambdaTestTerms of Serviceand acknowledge thePrivacy PolicyandCookie PolicyHomeAboutReviewsIntegrationsPrivacyTermsPricingCommunityContactAffiliateCustomers,,
+head,head,,,,,,,,Log in,,
+link,link,,,,,,,/icons/favicon.ico,,,
+link,link,,image/x-icon,,,,,/icons/favicon-16x16.png,,,
+link,link,,image/x-icon,,,,,/icons/favicon-32x32.png,,,
+link,link,,image/x-icon,,,,,/icons/favicon-96x96.png,,,
+meta,meta,,,,,,,,,,
+meta,meta,,,,,,,,,,
+viewport,meta,,,,viewport,,,,,,
+keywords,meta,,,,keywords,,,,,,
+meta,meta,,,,,,,,,,
+meta,meta,,,,,,,,,,
+meta,meta,,,,,,,,,,
+meta,meta,,,,,,,,,,
+meta,meta,,,,,,,,,,
+twitter:card,meta,,,,twitter:card,,,,,,
+twitter:title,meta,,,,twitter:title,,,,,,
+twitter:description,meta,,,,twitter:description,,,,,,
+twitter:url,meta,,,,twitter:url,,,,,,
+twitter:image,meta,,,,twitter:image,,,,,,
+link,link,,,,,,,/icons/favicon-96x96.png,,,
+link,link,,,,,,,/manifest.json,,,
+script,script,,,,,,,,,,
+script,script,,,,,,,,,,
+script,script,,text/javascript,,,,,,,,
+script,script,,,,,,,,,,
+script,script,,text/javascript,,,,,,,,
+script,script,,text/javascript,,,,,,,,
+script,script,,text/javascript,,,,,,,,
+script,script,,text/javascript,,,,,,,,
+Cookiebot,script,Cookiebot,text/javascript,,,,,,,,
+script,script,,,,,,,,,,
+script,script,,,,,,,,"!function(e,t,a,n,r){e[n]=e[n]||[],e[n].push({""gtm.start"":(new Date).getTime(),event:""gtm.js""});var g=t.getElementsByTagName(a)[0],m=t.createElement(a);m.defer=!0,m.src=""https://www.googletagmanager.com/gtm.js?id=GTM-53DM3BZ"",g.parentNode.insertBefore(m,g)}(window,document,""script"",""dataLayer"")",,
+script,script,,,,,,,,,,
+title,title,,,,,,,,Log in,,
+script,script,,,,,,,,,,
+link,link,,,,,,,/static/css/main.d6cdeefc.css,,,
+_goober,style,_goober,,,,,,,@keyframes go487993996{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go1747222846{from{transform:scale(0);opacity:0;}to{transform:scale(1);opacity:1;}}@keyframes go2652833988{from{transform:scale(0) rotate(90deg);opacity:0;}to{transform:scale(1) rotate(90deg);opacity:1;}}@keyframes go1268368563{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}@keyframes go3344466522{0%{height:0;width:0;opacity:0;}40%{height:0;width:6px;opacity:1;}100%{opacity:1;height:10px;}}@keyframes go2190974446{from{transform:scale(0.6);opacity:0.4;}to{transform:scale(1);opacity:1;}},,
+style,style,,text/css,,,,,,".ltBlackSearch {
+  background-color: #33383e !important;
+  color: #888 !important;
+  border: none !important;
+}
+.ltBlackSearch > input {
+  color: #c4c4c4 !important;
+}
+.ltBlackSearch:focus-within {
+  box-shadow: inset 0 0 0 2px #3690f7 !important;
+}",,
+style,style,,text/css,,,,,,"/* reset */
+.lt-tooltip-trigger {
+  z-index: 2;
+}
+
+.TooltipArrow {
+  fill: #333;
+}
+
+.tooltipChildrenWrapper {
+  display: flex;
+}
+
+.TooltipContent {
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  background-color: #333;
+  border-radius: 4px;
+  box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px,
+    hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+  color: #fff;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, ""Segoe UI"", Roboto,
+    ""Helvetica Neue"", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  max-height: var(--radix-tooltip-content-available-height);
+  max-width: 200px;
+  padding: 4px 8px;
+  user-select: none;
+  word-break: break-all;
+  will-change: transform, opacity;
+}
+
+.TooltipContentOverflow {
+  overflow: auto;
+  height: 100%;
+  max-height: 300px;
+}
+
+.TooltipContent[data-state=""delayed-open""][data-side=""top""] {
+  animation-name: slideDownAndFade;
+}
+
+.TooltipContent[data-state=""delayed-open""][data-side=""right""] {
+  animation-name: slideLeftAndFade;
+}
+
+.TooltipContent[data-state=""delayed-open""][data-side=""bottom""] {
+  animation-name: slideUpAndFade;
+}
+
+.TooltipContent[data-state=""delayed-open""][data-side=""left""] {
+  animation-name: slideRightAndFade;
+}
+
+.IconButton {
+  font-family: inherit;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--violet-11);
+  background-color: white;
+  box-shadow: 0 2px 10px #333;
+}
+
+.IconButton:hover {
+  background-color: grey;
+}
+
+.IconButton:focus {
+  box-shadow: 0 0 0 2px black;
+}
+
+div[data-radix-popper-content-wrapper] {
+  z-index: 9999999999 !important;
+}
+
+@keyframes slideUpAndFade {
+  from {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideRightAndFade {
+  from {
+    opacity: 0;
+    transform: translateX(-2px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideDownAndFade {
+  from {
+    opacity: 0;
+    transform: translateY(-2px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideLeftAndFade {
+  from {
+    opacity: 0;
+    transform: translateX(2px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}",,
+style,style,,text/css,,,,,,".progress-item + .progress-item {
+  margin-left: 2px;
+}",,
+style,style,,text/css,,,,,,".t-neutral .lt-lib-segmented-control input[type='radio']:checked + label {
+    background: #fff;
+    color: #333333;
+    font-weight: 600;
+    border: 1px solid #101010;
+    border-radius: 6px;
+  }
+  
+  .t-neutral .lt-lib-segmented-control input[type='radio']:active + label {
+  }
+  
+  .t-neutral .lt-lib-segmented-control__label {
+    background: #f7f7f7;
+    color: #111;
+  }
+  
+  .selectedSegmentedValue {
+    background: #fff;
+    color: #333333;
+    font-weight: 600;
+    border: 1px solid #101010;
+    border-radius: 6px;
+  }
+  
+  /* Component */
+  .lt-lib-segmented-control__label {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    padding: 4px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.4s ease, color 0.4s ease;
+  }
+
+  .lt-lib-segmented-control__label.segmentedValue:hover {
+    background-color: rgba(221, 221, 221, 0.2)
+  }
+
+  .lt-lib-segmented-control__label.segmentedValue:active {
+    background-color: rgba(221, 221, 221, 0.4)
+  }
+  
+  .segmented-control__input {
+    clip: rect(0, 0, 0, 0);
+    opacity: 0;
+    position: absolute;
+    visibility: none;
+  }
+  
+  .lt-lib-segmented-control__title {
+    margin-bottom: 0.4rem;
+  }
+  
+  .lt-lib-segmented-control__label:first-of-type {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  .lt-lib-segmented-control__label:last-of-type {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }",,
+style,style,,text/css,,,,,,".lt-default-switch .label {
+  display: inline-block;
+}
+
+.lt-default-switch .switch {
+  position: relative;
+  display: inline-block;
+  border-radius: 12px;
+  height: 20px;
+  width: 40px;
+}
+
+.lt-default-switch[aria-checked=""true""] .switch {
+  background: #101010;
+}
+
+.lt-default-switch[aria-disabled=""true""] .switch {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.lt-default-switch .switch span {
+  position: absolute;
+  top: 3.1px;
+  left: 2px;
+  display: inline-block;
+  border-radius: 8px;
+  height: 14px;
+  width: 14px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.lt-default-switch[aria-checked=""true""] .switch span {
+  left: 23px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.lt-default-switch .on {
+  display: none;
+}
+
+.lt-default-switch .off {
+  display: inline;
+}
+
+.lt-default-switch[aria-checked=""true""] .on {
+  display: inline;
+}
+
+.lt-default-switch[aria-checked=""true""] .off {
+  display: none;
+}
+
+.lt-default-switch:focus,
+.lt-default-switch:hover {
+  outline: none;
+  cursor: pointer;
+}",,
+style,style,,text/css,,,,,,".index-module_linkWrapper__k26KO,
+.index-module_linkWrapper__k26KO:hover,
+.index-module_linkWrapper__k26KO:focus,
+.index-module_linkWrapper__k26KO:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.index-module_linkWrapper__k26KO:focus .index-module_testItemContainer__6rfbi {
+  border: 1px solid #333;
+  border-bottom: none;
+  border-top: none;
+  outline: 1px solid #333;
+}
+
+.index-module_liveInteractionBtn__5SQZM {
+  z-index: 1;
+}
+
+.index-module_firstTestItem__LrpEr {
+  margin-top: 1px;
+}",,
+style,style,,text/css,,,,,,"@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.toast-fade-out {
+  animation: fadeOut 0.5s ease-in-out forwards;
+}
+
+.toast-fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}",,
+style,style,,text/css,,,,,,".Left_Nav_new {
+  position: absolute;
+  width: 212px;
+  height: calc(100vh - 40px);
+  animation: enterFromLeft 0.4s forwards;
+}
+
+.lambda__logo__img {
+  display: flex;
+
+  img {
+    display: flex;
+  }
+}
+
+.ltch_lambda__logo_new {
+  height: 18px !important;
+}
+
+.ltch_inline_flex {
+  display: inline-flex;
+}
+
+.header__aside__menu_new {
+  z-index: 1000;
+}
+
+.Left_Nav_new.collapsed,
+.header__aside__menu_new.collapsed {
+  width: 52px;
+}
+
+/* Hide the product navigation incase the sidebar is collapsed. */
+.Left_Nav_new.collapsed .ltch-detailed-product-nav {
+  display: none;
+}
+
+.header__aside__menu_new.collapsed .aside__menu__item_new,
+.header__top__menu_new.collapsed .ltch_lambda__logo_new {
+  overflow: hidden;
+}
+
+.header__aside__menu_new.collapsed .aside__menu__item_new {
+  color: #fff;
+  width: 52px;
+  transition: 300ms width;
+  height: 100%;
+}
+
+.header__aside__menu_new.collapsed .aside__menu__item_new .ltch-product-name {
+  transition: 300ms opacity;
+}
+
+.header__aside__menu_new.collapsed
+  .aside__menu__item_new
+  .aside__menu__link
+  .ltch-product-name-container {
+  color: #fff;
+}
+
+.header__aside__menu_new.collapsed
+  .aside__menu__item_new
+  .aside__menu__link
+  .ltch-product-name {
+  opacity: 0;
+}
+
+.header__aside__menu_new.collapsed .aside__menu__item_new .arrow__icon {
+  display: none;
+}
+
+.top__nav__product__title {
+  display: flex;
+  align-items: center;
+}
+
+.aside__menu__item_new__product__title .aside__menu__link .aside__menu__icon {
+  height: 16px;
+  width: 16px;
+}
+
+.aside__menu__link__anchor_new {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.aside__menu__link.aside__menu__link__anchor_new {
+  display: flex;
+  padding-left: 2px;
+  height: 36px;
+  align-items: center;
+  color: #e9ecec;
+  text-decoration: none !important;
+  font-size: 14px;
+  font-weight: 510;
+  padding-right: 8px;
+  justify-content: flex-start;
+  border-radius: 6px;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+.aside__menu__link.aside__menu__link__anchor_new svg {
+  margin-left: auto;
+}
+
+.header__aside__menu_new .aside__menu__link .aside__menu__icon {
+  position: absolute;
+  left: 20px;
+  top: 12px;
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.ltch-aside__menu__item_new {
+  background-color: #101010;
+  display: block;
+  position: relative;
+  padding: 0px 8px;
+}
+
+.ltch-aside__menu__item_new.aside__menu__secondary__item
+  .aside__menu__link
+  .aside__menu__icon {
+  left: 17px;
+}
+
+.ltch-aside__menu__item_new.aside__menu__secondary__item
+  .aside__menu__link.aside__menu__link__anchor_new {
+  padding-left: 15px;
+}
+
+.ltch-aside__menu__item_new.active,
+.ltch-aside__menu__item_new.active__menu {
+  background-color: #404040;
+  color: #ffffff !important;
+  font-weight: 590;
+}
+
+.ltch-aside__menu__item_new.active .aside__menu__link__anchor_new {
+  color: #fff !important;
+}
+
+.aside__menu__link__anchor_new:hover:not(.aside__menu__link) {
+  background-color: #282828;
+}
+
+.Left_Nav_new.collapsed
+  .aside__menu__link__anchor_new:hover
+  + .aside__menu__item_new__tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.Left_Nav_new.collapsed
+  .aside__menu__link__anchor_new:hover
+  + .aside__menu__item_new_freemium__tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.aside__menu__item_new.active .aside__menu__icon svg rect {
+  stroke: #fff;
+}
+
+.aside__menu__item_new.active .aside__menu__icon svg path {
+  stroke: #fff;
+}
+
+.aside__menu__item_new.active .aside__menu__link .arrow__icon svg path {
+  fill: #fff;
+}
+
+.aside__menu__item_new.active .aside__menu__icon svg line {
+  stroke: #fff;
+}
+
+.aside__menu__item_new.aside__menu__item_new__insights.active
+  .aside__menu__icon
+  svg
+  path {
+  stroke: initial;
+  fill: #fff;
+}
+
+.aside__menu__item_news__level1
+  .aside__menu__item_new__product__title:hover
+  .aside__menu__icon {
+  transform: translateX(-3px);
+}
+
+.aside__menu__item_news__level1
+  .aside__menu__item_new.active
+  .aside__menu__link,
+.aside__menu__item_news__level1
+  .aside__menu__item_new.active__menu
+  .aside__menu__link,
+.aside__menu__item_news__level1
+  .aside__menu__item_new:hover
+  .aside__menu__link {
+  cursor: pointer;
+}
+
+.aside__menu__item_news__level1 .aside__menu__item_new__product__title:hover {
+  background-color: transparent;
+}
+
+.Left_Nav_new.collapsed .aside__menu__item_new__product__title {
+  max-height: 0;
+  visibility: hidden;
+  transition: max-height 200ms ease-in;
+}
+
+.ltch_flex {
+  display: flex;
+}
+
+.aside__menu__item_new__bottom-upgrade .aside__menu__item_new__bottom__icon svg,
+.img_with_text_center span svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.aside__menu__item_new__main__menu_new {
+  cursor: pointer;
+}
+
+.aside__menu__item_new__bottom-upgrade .aside__menu__item_new__bottom__icon {
+  display: inherit;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.header__aside__menu_new.collapsed .aside__menu__item_new__bottom {
+  position: relative;
+}
+
+.Left_Nav_new.collapsed .ltch-toggle-ui-container {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ltch-product-name {
+  align-items: center;
+  display: flex;
+}
+
+.aside__menu__item_new__tooltip {
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.2s ease-in;
+  opacity: 0;
+
+  img {
+    position: absolute;
+    left: -6px;
+  }
+}
+
+.aside__menu__link__anchor_new:focus-visible {
+  background-color: #666;
+  outline: 1px solid #fff;
+  outline-offset: -1px;
+}
+
+@media screen and (max-height: 599px) {
+  .aside__menu__link.aside__menu__link__anchor_new {
+    height: 34px !important;
+  }
+}
+
+.customFreemiumHoverModal {
+  display: flex;
+  align-items: center;
+  transition: opacity 0.2s ease-in;
+  font-size: 12px;
+}
+.pointerEventsDisabled {
+  pointer-events: none;
+}",,
+style,style,,,,,,,,,,
+CookieConsentStateDisplayStyles,style,CookieConsentStateDisplayStyles,text/css,,,,,,".cookieconsent-optin,.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing{display:block;display:initial;}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:none;}",,
+script,script,,text/javascript,,,,,,,,
+body,body,,,,,,,,Log in with GoogleLog in with GithubLog in with SSOORShowLoginForgot Password?No account?Sign upBy clicking Login or signing in through a third party you accept the LambdaTestTerms of Serviceand acknowledge thePrivacy PolicyandCookie PolicyHomeAboutReviewsIntegrationsPrivacyTermsPricingCommunityContactAffiliateCustomers,,
+noscript,noscript,,,,,,,,,,
+iframe,iframe,,,,,,gtm,,,,
+app,div,app,,,,,,,Log in with GoogleLog in with GithubLog in with SSOORShowLoginForgot Password?No account?Sign upBy clicking Login or signing in through a third party you accept the LambdaTestTerms of Serviceand acknowledge thePrivacy PolicyandCookie PolicyHomeAboutReviewsIntegrationsPrivacyTermsPricingCommunityContactAffiliateCustomers,,
+div,div,,,BaseStyles__Base-sc-nfjs56-0 fNpFRc,,,,,Log in with GoogleLog in with GithubLog in with SSOORShowLoginForgot Password?No account?Sign upBy clicking Login or signing in through a third party you accept the LambdaTestTerms of Serviceand acknowledge thePrivacy PolicyandCookie PolicyHomeAboutReviewsIntegrationsPrivacyTermsPricingCommunityContactAffiliateCustomers,,
+main,main,,,,,,,,Log in with GoogleLog in with GithubLog in with SSOORShowLoginForgot Password?No account?Sign upBy clicking Login or signing in through a third party you accept the LambdaTestTerms of Serviceand acknowledge thePrivacy PolicyandCookie PolicyHomeAboutReviewsIntegrationsPrivacyTermsPricingCommunityContactAffiliateCustomers,,
+div,div,,,userservice_section bg-white,,,,,Log in with GoogleLog in with GithubLog in with SSOORShowLoginForgot Password?No account?Sign upBy clicking Login or signing in through a third party you accept the LambdaTestTerms of Serviceand acknowledge thePrivacy PolicyandCookie PolicyHomeAboutReviewsIntegrationsPrivacyTermsPricingCommunityContactAffiliateCustomers,,
+div,div,,,flex items-center bg-lambda-80 min-h-screen,,,,,Log in with GoogleLog in with GithubLog in with SSOORShowLoginForgot Password?No account?Sign upBy clicking Login or signing in through a third party you accept the LambdaTestTerms of Serviceand acknowledge thePrivacy PolicyandCookie PolicyHomeAboutReviewsIntegrationsPrivacyTermsPricingCommunityContactAffiliateCustomers,,
+div,div,,,md:w-9/12 w-11/12 mx-auto,,,,,Log in with GoogleLog in with GithubLog in with SSOORShowLoginForgot Password?No account?Sign upBy clicking Login or signing in through a third party you accept the LambdaTestTerms of Serviceand acknowledge thePrivacy PolicyandCookie PolicyHomeAboutReviewsIntegrationsPrivacyTermsPricingCommunityContactAffiliateCustomers,,
+div,div,,,xl:w-6/12 lg:w-8/12 w-11/12 mx-auto xlm:py-0 xl:py-50 login__app,,,,,Log in with GoogleLog in with GithubLog in with SSOORShowLoginForgot Password?No account?Sign upBy clicking Login or signing in through a third party you accept the LambdaTestTerms of Serviceand acknowledge thePrivacy PolicyandCookie PolicyHomeAboutReviewsIntegrationsPrivacyTermsPricingCommunityContactAffiliateCustomers,,
+div,div,,,bg-white xxxl:px-106 xxl:px-93 md:px-80 px-40 xxxl:py-50 xxl:py-44 py-38 login_part shadow-md,,,,,Log in with GoogleLog in with GithubLog in with SSOORShowLoginForgot Password?No account?Sign upBy clicking Login or signing in through a third party you accept the LambdaTestTerms of Serviceand acknowledge thePrivacy PolicyandCookie Policy,,
+div,div,,,clearfix registeraArea loginArea smtablet:mx-auto,,,,,Log in with GoogleLog in with GithubLog in with SSOORShowLoginForgot Password?No account?Sign upBy clicking Login or signing in through a third party you accept the LambdaTestTerms of Serviceand acknowledge thePrivacy PolicyandCookie Policy,,
+div,div,,,text-center xxxl:mb-53 xxl:mb-46 mb-40,,,,,,,
+a,a,,,logo,,,,https://www.lambdatest.com/,,,LambdaTest
+img,img,,,xxxl:w-240 xxl:w-210 w-180 h-auto mx-auto block,,,,,,,
+div,div,,,,,,,,Log in with GoogleLog in with GithubLog in with SSOOR,,
+a,a,,,hover:underline googleSignInBtn flex justify-center border-gray-210 border xxxl:h-54 xxl:h-47 h-40 items-center rounded-md,,,,/login/google/?disableSignup=1,Log in with Google,,
+img,img,,,xxxl:w-23 xxl:w-21 w-19 xxxl:h-23 xxl:h-21 h-19,,,,,,,
+span,span,,,text-gray-110 xxxl:text-size-16 xxl:text-size-14 text-size-12 tracking-custom font-semibold xxxl:ml-10 xxl:ml-8 ml-6,,,,,Log in with Google,,
+a,a,,,googleSignInBtn mt-10 hover:underline flex justify-center border-gray-210 border xxxl:h-54 xxl:h-47 h-40 items-center rounded-md,,,,/login/github/v1?disableSignup=1,Log in with Github,,
+img,img,,,xxxl:w-23 xxl:w-21 w-19 xxxl:h-23 xxl:h-21 h-19,,,,,,,
+span,span,,,text-gray-110 xxxl:text-size-16 xxl:text-size-14 text-size-12 tracking-custom font-semibold xxxl:ml-10 xxl:ml-8 ml-6,,,,,Log in with Github,,
+a,a,,,googleSignInBtn mt-10 hover:underline flex justify-center border-gray-210 border xxxl:h-54 xxl:h-47 h-40 items-center rounded-md,,,,/sso,Log in with SSO,,
+span,span,,,text-gray-110 xxxl:text-size-16 xxl:text-size-14 text-size-12 tracking-custom font-semibold xxxl:ml-10 xxl:ml-8 ml-6,,,,,Log in with SSO,,
+div,div,,,xxxl:my-41 xxl:my-38 my-35,,,,,OR,,
+div,div,,,w-full text-center border-b border-gray-410 mt-10 mr-0 mb-20 ml-0,,,,,OR,,
+span,span,,,xxxl:text-size-16 xxl:text-size-14 text-size-12 orsignup bg-white py-0 px-34 tracking-normal font-medium text-gray-500,,,,,OR,,
+form,form,,,form,,,,,ShowLogin,,
+div,div,,,w-full custom__border,,,,,,,
+div,div,,,relative,,,,,,,
+email,input,email,email,w-full tracking-custom pl-30 xxxl:text-size-18 xxl:text-size-16 text-size-14 placeholder:text-gray-310 text-black rounded-md py-10 xxxl:pr-24 xxl:pr-18 pr-12 xxxl:h-54 xxl:h-47 h-40,email,,,,,,
+label,label,,,,,,,,,,
+img,img,,,,,,,,,,
+div,div,,,w-full custom__border mt-20,,,,,Show,,
+div,div,,,block overflow-hidden relative,,,,,Show,,
+password,input,password,password,w-full tracking-custom pl-30 xxxl:text-size-18 xxl:text-size-16 text-size-14 placeholder:text-gray-310 text-black rounded-md py-10 xxxl:pr-24 xxl:pr-18 pr-12 xxxl:h-54 xxl:h-47 h-40,password,,,,,,
+label,label,,,,,,,,,,
+img,img,,,,,,,,,,
+div,div,,,absolute right-0 top-0 w-60 h-40 block text-center,,,,,Show,,
+span,span,,,rounded-r inline-block bg-white text-size-12 text-gray-70 font-normal leading-height-40 h-0 block p-0 border-none cursor-pointer hover:text-black,,,,,Show,,
+div,div,,,mt-20,,,,,Login,,
+login-button,button,login-button,submit,rounded block w-full text-size-14 h-40 tracking-widest font-bold uppercase g-recaptcha bg-black text-white disabled:opacity-50,,,,,Login,,
+div,div,,,mt-20,,,,,Forgot Password?No account?Sign up,,
+p,p,,,,,,,,Forgot Password?No account?Sign up,,
+span,span,,,clearfix,,,,,Forgot Password?No account?Sign up,,
+span,span,,,float-left desktop:leading-none,,,,,Forgot Password?,,
+a,a,,,t_shadow-none ml-0 text-size-12 text-black font-medium inline-block underline hover:underline hover:text-lambda-900,,,,/password/reset,Forgot Password?,,
+span,span,,,float-right text-size-12 text-[#655F5F],,,,,No account?Sign up,,
+a,a,,,ml-12 text-size-12 text-black cursor-pointer font-medium inline-block t_shadow-none underline hover:underline hover:text-lambda-900,,,,/register,Sign up,,
+div,div,,,mt-20 text-xs leading-5 min-w-full,,,,,By clicking Login or signing in through a third party you accept the LambdaTestTerms of Serviceand acknowledge thePrivacy PolicyandCookie Policy,,
+p,p,,,,,,,,By clicking Login or signing in through a third party you accept the LambdaTestTerms of Serviceand acknowledge thePrivacy PolicyandCookie Policy,,
+a,a,,,text-lambda-900 hover:underline,,,,https://www.lambdatest.com/terms-of-service,Terms of Service,,
+a,a,,,text-lambda-900 hover:underline,,,,https://www.lambdatest.com/privacy,Privacy Policy,,
+a,a,,,text-lambda-900 hover:underline,,,,https://www.lambdatest.com/legal/cookie,Cookie Policy,,
+div,div,,,flex items-center justify-center xxxl:mt-65 xxl:mt-57 mt-50,,,,,HomeAboutReviewsIntegrationsPrivacyTerms,,
+a,a,,,xxxl:text-size-18 xxl:text-size-16 md:text-size-14 text-size-9 font-normal text-gray-110 tracking-custom hover:underline hover:text-gray-110,,,,https://www.lambdatest.com/,Home,,
+span,span,,,xxxl:w-6 xxl:w-5 w-4 xxxl:h-6 xxl:h-5 h-4 rounded-full bg-gray-110 xxxl:mx-23 xxl:mx-19 md:mx-15 mx-5,,,,,,,
+a,a,,,xxxl:text-size-18 xxl:text-size-16 md:text-size-14 text-size-9 font-normal text-gray-110 tracking-custom hover:underline hover:text-gray-110,,,,https://www.lambdatest.com/about,About,,
+span,span,,,xxxl:w-6 xxl:w-5 w-4 xxxl:h-6 xxl:h-5 h-4 rounded-full bg-gray-110 xxxl:mx-23 xxl:mx-19 md:mx-15 mx-5,,,,,,,
+a,a,,,xxxl:text-size-18 xxl:text-size-16 md:text-size-14 text-size-9 font-normal text-gray-110 tracking-custom hover:underline hover:text-gray-110,,,,https://www.lambdatest.com/reviews,Reviews,,
+span,span,,,xxxl:w-6 xxl:w-5 w-4 xxxl:h-6 xxl:h-5 h-4 rounded-full bg-gray-110 xxxl:mx-23 xxl:mx-19 md:mx-15 mx-5,,,,,,,
+a,a,,,xxxl:text-size-18 xxl:text-size-16 md:text-size-14 text-size-9 font-normal text-gray-110 tracking-custom hover:underline hover:text-gray-110,,,,https://www.lambdatest.com/integrations,Integrations,,
+span,span,,,xxxl:w-6 xxl:w-5 w-4 xxxl:h-6 xxl:h-5 h-4 rounded-full bg-gray-110 xxxl:mx-23 xxl:mx-19 md:mx-15 mx-5,,,,,,,
+a,a,,,xxxl:text-size-18 xxl:text-size-16 md:text-size-14 text-size-9 font-normal text-gray-110 tracking-custom hover:underline hover:text-gray-110,,,,https://www.lambdatest.com/legal/privacy,Privacy,,
+span,span,,,xxxl:w-6 xxl:w-5 w-4 xxxl:h-6 xxl:h-5 h-4 rounded-full bg-gray-110 xxxl:mx-23 xxl:mx-19 md:mx-15 mx-5,,,,,,,
+a,a,,,xxxl:text-size-18 xxl:text-size-16 md:text-size-14 text-size-9 font-normal text-gray-110 tracking-custom hover:underline hover:text-gray-110,,,,https://www.lambdatest.com/legal/terms-of-service,Terms,,
+div,div,,,flex items-center justify-center xxxl:mt-13 xxl:mt-12 mt-11,,,,,PricingCommunityContactAffiliateCustomers,,
+a,a,,,xxxl:text-size-18 xxl:text-size-16 md:text-size-14 text-size-9 font-normal text-gray-110 tracking-custom hover:underline hover:text-gray-110,,,,https://www.lambdatest.com/pricing,Pricing,,
+span,span,,,xxxl:w-6 xxl:w-5 w-4 xxxl:h-6 xxl:h-5 h-4 rounded-full bg-gray-110 xxxl:mx-23 xxl:mx-19 md:mx-15 mx-5,,,,,,,
+a,a,,,xxxl:text-size-18 xxl:text-size-16 md:text-size-14 text-size-9 font-normal text-gray-110 tracking-custom hover:underline hover:text-gray-110,,,,https://community.lambdatest.com/,Community,,
+span,span,,,xxxl:w-6 xxl:w-5 w-4 xxxl:h-6 xxl:h-5 h-4 rounded-full bg-gray-110 xxxl:mx-23 xxl:mx-19 md:mx-15 mx-5,,,,,,,
+a,a,,,xxxl:text-size-18 xxl:text-size-16 md:text-size-14 text-size-9 font-normal text-gray-110 tracking-custom hover:underline hover:text-gray-110,,,,https://www.lambdatest.com/contact-us,Contact,,
+span,span,,,xxxl:w-6 xxl:w-5 w-4 xxxl:h-6 xxl:h-5 h-4 rounded-full bg-gray-110 xxxl:mx-23 xxl:mx-19 md:mx-15 mx-5,,,,,,,
+a,a,,,xxxl:text-size-18 xxl:text-size-16 md:text-size-14 text-size-9 font-normal text-gray-110 tracking-custom hover:underline hover:text-gray-110,,,,https://www.lambdatest.com/affiliate-program-partnership,Affiliate,,
+span,span,,,xxxl:w-6 xxl:w-5 w-4 xxxl:h-6 xxl:h-5 h-4 rounded-full bg-gray-110 xxxl:mx-23 xxl:mx-19 md:mx-15 mx-5,,,,,,,
+a,a,,,xxxl:text-size-18 xxl:text-size-16 md:text-size-14 text-size-9 font-normal text-gray-110 tracking-custom hover:underline hover:text-gray-110,,,,https://www.lambdatest.com/customers/,Customers,,
+div,div,,,,,,,,,,
+div,div,,,Box-sc-g0xbh4-0 sc-dkmUuB fIgNts lt-toast-container,,,,,,,
+script,script,,,,,,,,,,
+script,script,,text/javascript,,,,,,"(function(){var a=document.createElement(""script"");a.type=""text/javascript"";a.defer=!0;a.src=""https://cdn.firstpromoter.com/fprom.js"";a.onload=a.onreadystatechange=function(){var b=this.readyState;if(!b||""complete""==b||""loaded""==b)try{$FPROM.init(""n3ufe5o3"","".lambdatest.com"")}catch(d){}};var c=document.getElementsByTagName(""script"")[0];c.parentNode.insertBefore(a,c)})();",,
+div,div,,,,,,,,,,
+script,script,,text/javascript,,,,,,"function getCookie(a){var b=""; ""+document.cookie;a=b.split(""; ""+a+""\x3d"");if(2==a.length)return a.pop().split("";"").shift()}function getLTUserID(){var a=getCookie(""user_id"");return null!==a?a:""""}var _customTask=function(a){return function(b){b.set(""dimension""+a,b.get(""clientId""))}},_sessionid=(new Date).getTime()+"".""+Math.random().toString(36).substring(5);
+function _timestamp(){var a=new Date,b=-a.getTimezoneOffset(),f=0<=b?""+"":""-"",c=function(d){d=Math.abs(Math.floor(d));return(10>d?""0"":"""")+d};a=b/60;var e=5.5;a=e-a;a=new Date((new Date).getTime()+36E5*a);return a.getFullYear()+""-""+c(a.getMonth()+1)+""-""+c(a.getDate())+""T""+c(a.getHours())+"":""+c(a.getMinutes())+"":""+c(a.getSeconds())+"".""+c(a.getMilliseconds())+f+c(b/60)+"":""+c(b%60)}
+(function(a,b,f,c,e,d,g){a.GoogleAnalyticsObject=e;a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)};a[e].l=1*new Date;d=b.createElement(f);g=b.getElementsByTagName(f)[0];d.defer=1;d.src=c;g.parentNode.insertBefore(d,g)})(window,document,""script"",""https://www.google-analytics.com/analytics.js"",""ga"");ga(""create"",""UA-101210471-1"",""auto"",{userId:getLTUserID()});ga(""set"",""dimension1"",getLTUserID());ga(""set"",""dimension3"",_sessionid);ga(""set"",""dimension4"",_timestamp());ga(""set"",""dimension5"",getLTUserID());
+ga(""set"",""customTask"",_customTask(2));ga(""send"",""pageview"",{dimension1:getLTUserID()});",,
+script,script,,text/javascript,,,,,,"function getCookieByName(b){for(var c=document.cookie.split("";""),a=0;a<c.length;a++){var d=c[a].trim();if(0===d.indexOf(b))return d.substring(b.length+1)}return null};",,
+script,script,,text/javascript,,,,,,"(function(d,c){function k(a,g){a.prototype[g]=function(){this._q.push([g].concat(Array.prototype.slice.call(arguments,0)));return this}}function l(a){function g(m){a[m]=function(){a._q.push([m].concat(Array.prototype.slice.call(arguments,0)))}}for(var h=0;h<n.length;h++)g(n[h])}var e=d.amplitude||{_q:[],_iq:{}},b=c.createElement(""script"");b.type=""text/javascript"";b.integrity=""sha384-girahbTbYZ9tT03PWWj0mEVgyxtZoyDF9KVZdL+R53PP5wCY0PiVUKq0jeRlMx9M"";b.crossOrigin=""anonymous"";b.async=!0;b.src=""https://cdn.amplitude.com/libs/amplitude-7.2.1-min.gz.js"";
+b.onload=function(){d.amplitude.runQueuedFunctions||console.log(""[Amplitude] Error: could not load SDK"")};c=c.getElementsByTagName(""script"")[0];c.parentNode.insertBefore(b,c);b=function(){this._q=[];return this};c=""add append clearAll prepend set setOnce unset"".split("" "");for(var f=0;f<c.length;f++)k(b,c[f]);e.Identify=b;b=function(){this._q=[];return this};c=[""setProductId"",""setQuantity"",""setPrice"",""setRevenueType"",""setEventProperties""];for(f=0;f<c.length;f++)k(b,c[f]);e.Revenue=b;var n=""init logEvent logRevenue setUserId setUserProperties setOptOut setVersionName setDomain setDeviceId enableTracking setGlobalUserProperties identify clearUserProperties setGroup logRevenueV2 regenerateDeviceId groupIdentify onInit logEventWithTimestamp logEventWithGroups setSessionId resetSessionId"".split("" "");
+l(e);e.getInstance=function(a){a=(a&&0!==a.length?a:""$default_instance"").toLowerCase();e._iq.hasOwnProperty(a)||(e._iq[a]={_q:[]},l(e._iq[a]));return e._iq[a]};d.amplitude=e})(window,document);
+0<=window.location.origin.indexOf(""stage-"")||0<=window.location.origin.indexOf(""localhost"")||0<=window.location.origin.indexOf(""dev"")||0<=window.location.origin.indexOf(""staging"")?window.amplitude.getInstance().init(""4a086d81e406efbf620b13181a18ab22"",null,{saveEvents:!0,includeUtm:!0,includeReferrer:!0,includeGclid:!0,saveParamsReferrerOncePerSession:!1,logAttributionCapturedEvent:!0}):window.amplitude.getInstance().init(""4bc4dc841d6b1d6fbf95625015dd82a8"",null,{saveEvents:!0,includeUtm:!0,includeReferrer:!0,
+includeGclid:!0,saveParamsReferrerOncePerSession:!1,logAttributionCapturedEvent:!0});(function(){var d=getCookieByName(""user_id"");console.log(""userID"",getCookieByName(""user_id""));d&&window.amplitude&&(d=d.toString().padStart(5,""0""),window.amplitude.getInstance().setUserId(d))})();var identify=(new amplitude.Identify).set(""page_url"",window.location.href).setOnce(""landing_page_url"",window.location.href);amplitude.getInstance().identify(identify);
+(function(){var d={page_title:document.title,page_url:window.location.href,page_path:window.location.pathname,is_authenticated:getCookie(""user_id"")?!0:!1,page_referrer:document.referrer};window.amplitude&&window.amplitude.getInstance().logEvent(""Page Viewed"",d)})();console.log(""Amplitude SDK triggered"");",,
+script,script,,text/javascript,,,,,,,,
+div,div,,,,,,,,,,
+script,script,,,,,,,,"function ltGetCookie(a){return(a=(new RegExp(""(?:^|; )""+encodeURIComponent(a)+""\x3d([^;]*)"")).exec(document.cookie))?a[1]:null}function ltWriteCookie(a,f,c){c||(c=7300);var b=new Date;b.setTime(b.getTime()+c*864E5);c=""; expires\x3d""+b.toUTCString();document.cookie=a+""\x3d""+f+c+"";domain\x3d.lambdatest.com; path\x3d/""}
+function ltSetFirstUtm(){var a={utm_source_latest:""N/A"",utm_medium_latest:""N/A"",utm_term_latest:""N/A"",utm_content_latest:""N/A"",utm_campaign_latest:""N/A"",utm_referrer_latest:""N/A"",utm_product_latest:""N/A"",utm_experiment_latest:""N/A"",utm_source:""N/A"",utm_medium:""N/A"",utm_term:""N/A"",utm_content:""N/A"",utm_campaign:""N/A"",utm_referrer:""N/A"",utm_product:""N/A"",utm_experiment:""N/A""};return a}
+function ltHandleUTMCookie(){console.log(""LT cookie handle called"");var a={},f=""\x26"";try{var c=!0,b=ltGetCookie(""utm"");b&&(b=JSON.parse(b),b!==null&&(c=!1));console.log(""first_time_flag"",c);a=c===!0?ltSetFirstUtm():b;var l=window.location.search,g=l.substring(1),k=g.split(f),d=document.referrer;f=!0;d=document.referrer;d!=""""&&d.indexOf(""accounts.google.com"")&&d.indexOf(""lambdatest.com"")===-1&&(c?(a.utm_referrer=d,a.utm_referrer_latest=d):b&&b.utm_referrer_latest&&d!=""""&&(f&&(a.utm_product_latest=
+""N/A"",a.utm_source_latest=""N/A"",a.utm_medium_latest=""N/A"",a.utm_term_latest=""N/A"",a.utm_content_latest=""N/A"",a.utm_campaign_latest=""N/A"",a.utm_referrer_latest=""N/A"",a.utm_experiment_latest=""N/A""),a.utm_referrer_latest=d));d=!0;for(f=0;f<k.length;f++){g=k[f];var e=g.split(""\x3d"");e[1]=decodeURI(e[1]);if(e[0].substring(0,4)==""utm_""){var h=e[0]+""_latest"";c?(a[e[0]]=e[1],a[h]=e[1]):b&&b[h]&&e[1]!=""""&&(d&&(a.utm_product_latest=""N/A"",a.utm_source_latest=""N/A"",a.utm_medium_latest=""N/A"",a.utm_term_latest=
+""N/A"",a.utm_content_latest=""N/A"",a.utm_campaign_latest=""N/A"",a.utm_experiment_latest=""N/A"",d=!1),a[h]=e[1])}e[0]==""gclid""&&writeCookie(""lt_gclid"",e[1],365)}Object.keys(a).length!=0&&(ltWriteCookie(""utm"",JSON.stringify(a),365),ltWriteCookie(""utm_base"",window.btoa(JSON.stringify(a)),365))}catch(m){console.log(""Err"",m)}}window.onload=ltHandleUTMCookie();",,
+script,script,,text/javascript,,,,,,"!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version=""2.0"",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,""script"",""https://connect.facebook.net/en_US/fbevents.js"");fbq(""init"",""389586454104743"");fbq(""track"",""PageView"");",,
+noscript,noscript,,,,,,,,,,
+img,img,,,,,,,,,,
+__uspapiLocator,iframe,,,,__uspapiLocator,,Blank,,,,
+script,script,,text/javascript,,,,,,,,
+iframe,iframe,,,,,,,,,,
+iframe,iframe,,,,,,,,,,
+iframe,iframe,,,,,,Blank,,,,
+iframe,iframe,,,,,,,,,,
+script,script,,text/javascript,,,,,,"window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag(""js"",new Date);gtag(""config"",""AW-833407987"");",,
+CookiebotSessionPixel,img,CookiebotSessionPixel,,,,,,,,,
