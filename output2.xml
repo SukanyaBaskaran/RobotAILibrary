@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on win32)" generated="2025-02-27T04:14:46.702347" rpa="false" schemaversion="5">
+<suite id="s1" name="AI Library" source="C:\Users\Admin\Robotframework_File\Sample_Project\TestCases\AI_Library.robot">
+<test id="s1-t1" name="Create AI assitant to learn Framework" line="14">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-27T04:14:48.388072" level="INFO">@{FILE_PATHS} = [ C:\Users\Admin\Robotframework_File\Sample_Project\Locators_POM | C:\Users\Admin\Robotframework_File\Sample_Project\Resources\Common.robot | C:\Users\Admin\Robotframework_File\Sample_Project\TestCase...</msg>
+<var>@{FILE_PATHS}</var>
+<arg>${EXECDIR}\\Sample_Project\\Locators_POM</arg>
+<arg>${EXECDIR}\\Sample_Project\\Resources\\Common.robot</arg>
+<arg>${EXECDIR}\\Sample_Project\\TestCases\\Sample.robot</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-27T04:14:48.388072" elapsed="0.000000"/>
+</kw>
+<kw name="Set Ai Model" owner="RobotFrameworkAI">
+<arg>openai</arg>
+<doc>Setter for the AI Model argument.
+ai_model: str: The AI model to be used, e.g. "openai", "gemini", "copilot", etc. Currently supporting: "openai".
+See the RobotFrameworkAI docs for more information about setters.</doc>
+<status status="PASS" start="2025-02-27T04:14:48.388072" elapsed="0.786155"/>
+</kw>
+<kw name="Set Name" owner="RobotFrameworkAI">
+<arg>Test Assistant</arg>
+<doc>Setter for the Name argument.
+name: str: The name to be assigned.
+See the RobotFrameworkAI docs for more information about setters.</doc>
+<status status="PASS" start="2025-02-27T04:14:49.174227" elapsed="0.000000"/>
+</kw>
+<kw name="Set Instructions" owner="RobotFrameworkAI">
+<arg>This assistant is capable of handling various technical queries.</arg>
+<doc>Setter for the Instructions argument.
+instructions: str: The instructions to be assigned.
+See the RobotFrameworkAI docs for more information about setters.</doc>
+<status status="PASS" start="2025-02-27T04:14:49.174227" elapsed="0.000000"/>
+</kw>
+<kw name="Set Model" owner="RobotFrameworkAI">
+<arg>gpt-3.5-turbo</arg>
+<doc>Setter for the Model argument.
+model: str: AI model specific. The model of the AI model to be used, e.g., "gpt-3.5-turbo" when using the "openai" AI model.
+Default per AI model:
+    - "openai" = "gpt-3.5-turbo"
+See the RobotFrameworkAI docs for more information about setters.</doc>
+<status status="PASS" start="2025-02-27T04:14:49.174227" elapsed="0.000000"/>
+</kw>
+<kw name="Set Temperature" owner="RobotFrameworkAI">
+<arg>1.5</arg>
+<doc>Setter for the Temperature argument.
+temperature: float: This value determines the creativity of the AI model. Can be anything from 0-2.
+Default = 1.
+See the RobotFrameworkAI docs for more information about setters.</doc>
+<status status="PASS" start="2025-02-27T04:14:49.174227" elapsed="0.000000"/>
+</kw>
+<kw name="Set Top P" owner="RobotFrameworkAI">
+<arg>0.8</arg>
+<doc>Setter for the Top P argument.
+top_p: float: Similar to temperature. Determines the selection of tokens before selecting one.
+The higher the value, the more less likely tokens get added to the selection. Can be anything from 0-2. At 1,
+only the top 50% of tokens will be used when selecting a token; at 0, all tokens will be taken into consideration.
+Default = 1.
+See the RobotFrameworkAI docs for more information about setters.</doc>
+<status status="PASS" start="2025-02-27T04:14:49.174227" elapsed="0.000000"/>
+</kw>
+<kw name="Create Assistant" owner="RobotFrameworkAI">
+<msg time="2025-02-27T04:14:50.109136" level="INFO">HTTP Request: POST https://api.openai.com/v1/assistants "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:14:50.713830" level="INFO">HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:14:50.713830" level="INFO">Request being handled by openai...</msg>
+<doc>Creates a new assistant and returns its Id</doc>
+<status status="PASS" start="2025-02-27T04:14:49.174227" elapsed="1.539603"/>
+</kw>
+<kw name="Set Message" owner="RobotFrameworkAI">
+<arg>Learn our Framework from the attached files and generate a new Robotframework script with the site specific new locators for the Webpage - "https://demoqa.com/automation-practice-form". Use user defined dynamic keywords like "Input Dynamic Text" etc from attached Common.robot file and also generate new keywords as per the website elements. No other explanations needed.Need just the code snippet alone to save the response directly as a robot file</arg>
+<doc>Setter for the Message argument.
+message: str: The message you want to send to the AI model, e.g., "What is the weather today?".
+See the RobotFrameworkAI docs for more information about setters.</doc>
+<status status="PASS" start="2025-02-27T04:14:50.713830" elapsed="0.000000"/>
+</kw>
+<kw name="Send Message" owner="RobotFrameworkAI">
+<msg time="2025-02-27T04:14:52.179348" level="INFO">HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:14:53.609830" level="INFO">HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:14:55.080735" level="INFO">HTTP Request: POST https://api.openai.com/v1/threads/thread_7eHzULprbprF7ETmpxy4ZPZz/messages "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:14:57.462857" level="INFO">HTTP Request: POST https://api.openai.com/v1/threads/thread_7eHzULprbprF7ETmpxy4ZPZz/runs "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:14:58.040501" level="INFO">HTTP Request: GET https://api.openai.com/v1/threads/thread_7eHzULprbprF7ETmpxy4ZPZz/runs/run_mcfHGmUk1pnYhFnVyRHAKihW "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:14:59.777665" level="INFO">HTTP Request: GET https://api.openai.com/v1/threads/thread_7eHzULprbprF7ETmpxy4ZPZz/runs/run_mcfHGmUk1pnYhFnVyRHAKihW "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:15:01.535938" level="INFO">HTTP Request: GET https://api.openai.com/v1/threads/thread_7eHzULprbprF7ETmpxy4ZPZz/runs/run_mcfHGmUk1pnYhFnVyRHAKihW "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:15:04.242765" level="INFO">HTTP Request: GET https://api.openai.com/v1/threads/thread_7eHzULprbprF7ETmpxy4ZPZz/runs/run_mcfHGmUk1pnYhFnVyRHAKihW "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:15:05.954580" level="INFO">HTTP Request: GET https://api.openai.com/v1/threads/thread_7eHzULprbprF7ETmpxy4ZPZz/runs/run_mcfHGmUk1pnYhFnVyRHAKihW "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:15:07.659279" level="INFO">HTTP Request: GET https://api.openai.com/v1/threads/thread_7eHzULprbprF7ETmpxy4ZPZz/runs/run_mcfHGmUk1pnYhFnVyRHAKihW "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:15:09.371457" level="INFO">HTTP Request: GET https://api.openai.com/v1/threads/thread_7eHzULprbprF7ETmpxy4ZPZz/runs/run_mcfHGmUk1pnYhFnVyRHAKihW "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:15:11.306883" level="INFO">HTTP Request: GET https://api.openai.com/v1/threads/thread_7eHzULprbprF7ETmpxy4ZPZz/runs/run_mcfHGmUk1pnYhFnVyRHAKihW "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:15:14.149881" level="INFO">HTTP Request: GET https://api.openai.com/v1/threads/thread_7eHzULprbprF7ETmpxy4ZPZz/runs/run_mcfHGmUk1pnYhFnVyRHAKihW "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:15:14.770366" level="INFO">HTTP Request: GET https://api.openai.com/v1/threads/thread_7eHzULprbprF7ETmpxy4ZPZz/messages?run_id=run_mcfHGmUk1pnYhFnVyRHAKihW "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:15:15.324656" level="INFO">HTTP Request: GET https://api.openai.com/v1/threads/thread_7eHzULprbprF7ETmpxy4ZPZz/messages?run_id=run_mcfHGmUk1pnYhFnVyRHAKihW&amp;after=msg_35nS7oC8r1YTWaa7y4rIxDGf "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:15:15.324656" level="INFO">Request being handled by openai...</msg>
+<msg time="2025-02-27T04:15:15.324656" level="INFO">${RESPONSE} = Based on the information retrieved from the files, here is a new Robot Framework script with site-specific locators for the webpage "https://demoqa.com/automation-practice-form":
+
+```robot
+*** Setting...</msg>
+<var>${RESPONSE}</var>
+<arg>file_paths=${FILE_PATHS}</arg>
+<doc>Sends a prompt to the active assistant and returns its response</doc>
+<status status="PASS" start="2025-02-27T04:14:50.713830" elapsed="24.610826"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-27T04:15:30.325691" level="INFO">Slept 15 seconds.</msg>
+<arg>15s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-27T04:15:15.324656" elapsed="15.001035"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-27T04:15:30.325691" level="INFO">Based on the information retrieved from the files, here is a new Robot Framework script with site-specific locators for the webpage "https://demoqa.com/automation-practice-form":
+
+```robot
+*** Settings ***
+Library           SeleniumLibrary
+Resource          Common.robot
+
+*** Variables ***
+${URL}            https://demoqa.com/automation-practice-form
+${Name}           Your Name
+${Email}          youremail@example.com
+${Phone}          1234567890
+${Gender}         Female
+${Address}        Your Address
+
+*** Test Cases ***
+Fill Form on DemoQA
+    Open Browser    ${URL}    chrome
+    Maximize Browser Window
+    Input Dynamic Text    id=firstName    ${Name}
+    Input Dynamic Text    id=userEmail    ${Email}
+    Input Dynamic Text    id=userNumber    ${Phone}
+    Click Element    xpath=//label[@for="gender-radio-2"]
+    Input Dynamic Text    id=currentAddress    ${Address}
+    Click Element    id=submit
+
+*** Keywords ***
+Input Dynamic Text
+    [Arguments]    ${locator}    ${text}
+    Input Text    ${locator}    ${text}
+```
+
+This script includes user-defined dynamic keywords like "Input Dynamic Text" from the Common.robot file and new keywords specific to the elements on the "https://demoqa.com/automation-practice-form" webpage.</msg>
+<arg>${RESPONSE}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-27T04:15:30.325691" elapsed="0.000000"/>
+</kw>
+<kw name="Create File" owner="OperatingSystem">
+<msg time="2025-02-27T04:15:30.331292" level="INFO" html="true">Created file '&lt;a href="file://C:\Users\Admin\Robotframework_File\Sample_Project\TestCases\NewSample2.robot"&gt;C:\Users\Admin\Robotframework_File\Sample_Project\TestCases\NewSample2.robot&lt;/a&gt;'.</msg>
+<arg>${EXECDIR}\\Sample_Project\\TestCases\\NewSample2.robot</arg>
+<arg>${RESPONSE}</arg>
+<doc>Creates a file with the given content and encoding.</doc>
+<status status="PASS" start="2025-02-27T04:15:30.325691" elapsed="0.005601"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-27T04:15:30.331292" level="INFO">"Generated files saved successfully!"</msg>
+<arg>"Generated files saved successfully!"</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-27T04:15:30.331292" elapsed="0.000000"/>
+</kw>
+<kw name="Delete Assistant" owner="RobotFrameworkAI">
+<msg time="2025-02-27T04:15:31.098672" level="INFO">HTTP Request: DELETE https://api.openai.com/v1/assistants/asst_DUXskU3DJ271VAd6K7tDHpyN "HTTP/1.1 200 OK"</msg>
+<msg time="2025-02-27T04:15:31.098672" level="INFO">Request being handled by openai...</msg>
+<doc>Deletes the active assistant</doc>
+<status status="PASS" start="2025-02-27T04:15:30.331292" elapsed="0.767380"/>
+</kw>
+<tag>GOD</tag>
+<status status="PASS" start="2025-02-27T04:14:48.388072" elapsed="42.710600"/>
+</test>
+<status status="PASS" start="2025-02-27T04:14:46.702347" elapsed="44.396325"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">GOD</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="AI Library">AI Library</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
